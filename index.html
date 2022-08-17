@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>yuuko preview</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@600,800,900,700,400,500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="title">Yuuko, your Anime companion.</div>
+    <div class="paragraph">
+      <img align="right" src="https://i.imgur.com/KywU3l8.png" alt="Help command" class="cmdImage" />
+      <p>
+        Yuuko is the answer to all your anime needs. We combine efficient and
+        proven technologies to deliver a huge subset of commands.
+      </p>
+    </div>
+    <div class="paragraph">
+      <img src="https://i.imgur.com/tKyI0uJ.png" alt="User command" align="left" class="cmdImage">
+      <p align="right">With our bot you can view all your animes, mangas, news, and even get recommendations based on
+        your viewing habits without ever leaving the comfort of Discord.</p>
+    </div>
+    <div class="paragraph">
+      <img src="https://i.imgur.com/V1HoqdC.png" alt="Studio command" align="right" class="cmdImage"
+        style="width:300px">
+      <p align="left">And there's more, much more. You can view your favourite characters, studios, and even the staff
+        that takes care of all hard work of making an anime.</p>
+      <img src="https://i.imgur.com/993OoHF.png" alt="Staff command" align="left" class="cmdImage">
+    </div>
+    <div class="paragraph">
+      <img src="https://i.imgur.com/TnZVfMf.png" alt="Makeactivirty command" align="left" class="cmdImage">
+      <p align="right"> You can sync your AniList account with Yuuko, you can post to your AniList feed, and see what
+        your friends are up to and many others. Yuuko takes care of all the hard behind-the-scene details of delivering
+        all about anime to your server with beautiful, modern, and highly interactable user interfaces.</p>
+    </div>
+    <div class="paragraph" style="padding-top: 0;">
+      <p>So what are you waiting for? Take the next step into interacting with anime by inviting Yuuko to your server
+        today!
+        <br><br>
+        And it gets even better, Yuuko is completely open source on GitHub under the MIT license, so you are more than
+        welcome to view and contribute to our source code. Your data is protected by industry proven cryptography, and
+        rest assured we will never touch it.
+      </p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Parameters (? = optional ! = required)</th>
+      </tr>
+      <tr>
+        <td>/activity</td>/edit
+      <tr>
+        <td>/airing</td>
+        <td>Gets the airing schedule for today or period. (e.g. 1 week means today the next week.)</td>
+        <td>/airing ?in</td>
+      </tr>
+      <tr>
+        <td>/anime</td>
+        <td>Gets an anime from anilist based on a search result.</td>
+        <td>/anime title</td>
+      </tr>
+      <tr>
+        <td>/auth help</td>
+        <td>Shows you how to get you your AniList token to bind your account.</td>
+        <td>/auth help</td>
+      </tr>
+      <tr>
+        <td>/auth token</td>
+        <td>Binds an existing AniList user to your Discord account in the bot database.</td>
+        <td>/auths token !token</td>
+      </tr>
+      <tr>
+        <td>/character</td>
+        <td>Gets the airing schedule for today or period. (e.g. 1 week means today the next week.)</td>
+        <td>/character !name</td>
+      </tr>
+      <tr>
+        <td>/makeactivity list</td>
+        <td>Allows you to make an Anilist media activity from Discord. Requires an AniList token.</td>
+        <td>/makeactivity list !mediaid !status ?hide ?list ?score ?progress</td>
+      </tr>
+      <tr>
+        <td>/makeactivity status</td>
+        <td>Allows you to make an Anilist status activity from Discord. Requires an AniList token.</td>
+        <td>/makeactivity status !text</td>
+      </tr>
+      <tr>
+        <td>/recommend</td>
+        <td>Recommends unwatched anime/manga based on the requested genre(s).</td>
+        <td>/recommend !anime/manga !username !genres</td>
+      </tr>
+      <tr>
+        <td>/staff</td>
+        <td>Gives you info about a staff member from anilist's DB.</td>
+        <td>/staff !name</td>
+      </tr>
+      <tr>
+        <td>/studio</td>
+        <td>Searches for an studio and displays a list of their anime</td>
+        <td>/studio !name</td>
+      </tr>
+      <tr>
+        <td>/trace</td>
+        <td>Gets an anime series from an image.</td>
+        <td>/trace !image attachment</td>
+      </tr>
+      <tr>
+        <td>/user</td>
+        <td>Searches for an anilist user and displays information about them.</td>
+        <td>/user ?user</td>
+      </tr>
+      <tr>
+        <td>/aninews</td>
+        <td>Gets the latest anime news from RSS.</td>
+        <td>/aninews</td>
+      </tr>
+    </table>
+
+    <footer style="margin-bottom: 1rem; font-size:0.9rem; font-weight: 800;">YuuCorp © 2022</footer>
+  </div>
+</body>
+
+</html>
