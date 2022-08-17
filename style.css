@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: "Switzer", sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: rgb(228, 62, 153);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  max-width: fit-content;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  max-width: 800px;
+  background-color: rgb(32, 32, 32);
+  gap: 2rem;
+}
+
+#title {
+  letter-spacing: 0.1rem;
+  margin-top: 24px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.cmdImage {
+  display: inline-block;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(228, 62, 153, .05), 0 5px 40px rgba(228, 62, 153, .1);
+  margin: 1rem;
+}
+
+.paragraph {
+  border-bottom: 2px solid #2c2c2c;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+table {
+  text-align: left;
+  max-width: 80%;
+  font-size: 1rem;
+}
+
+td {
+  max-width: 250px;
+}
+
+tr>td {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
